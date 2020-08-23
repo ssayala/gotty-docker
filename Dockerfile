@@ -9,6 +9,3 @@ RUN apk add --update go git && \
   mv /tmp/gotty/bin/gotty /usr/local/bin/ && \
   apk del go git && \
   rm -rf /tmp/gotty /var/cache/apk/*
-
-ENTRYPOINT ["/usr/local/bin/gotty"]
-CMD ["--permit-write","--reconnect","/bin/sh"]
