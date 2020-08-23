@@ -12,4 +12,3 @@ RUN apk add --update go git && \
 
 ENTRYPOINT ["/usr/local/bin/gotty"]
 CMD ["--permit-write","--reconnect","/bin/sh"]
-~
