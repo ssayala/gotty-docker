@@ -4,6 +4,7 @@
 Web accessable shell into a container for debugging.
 
 Sample ECS Taskdef (Can be run on Fargate)
+Replace USER, PASS below with your username and password
 
 ```
 {
